@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -18,6 +22,7 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+
 }
 
 img {
@@ -42,6 +47,9 @@ img {
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
+}
+section{
+  max-width: 1080px;
 }
 
 form input,
